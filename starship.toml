@@ -1,0 +1,13 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[package]
+disabled = true
+
+[nix_shell]
+symbol = "❄️ "
+
+[aws]
+disabled = true
+
+[nodejs]
+symbol = "🤖 "
