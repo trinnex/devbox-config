@@ -1,0 +1,46 @@
+{
+  "packages": [
+    "bat@latest",
+    "gitMinimal@latest",
+    "glow@latest",
+    "direnv@latest",
+    "starship@latest",
+    "eza@latest"
+  ],
+  "env": {
+    "DEVBOX_GLOBAL_PREFIX": "$HOME/.local/share/devbox/global/default/.devbox/nix/profile/default",
+    "DEVBOX_GLOBAL_ROOT":   "$HOME/.local/share/devbox/global/current"
+  },
+  "shell": {
+    "init_hook": [
+      ". ${DEVBOX_GLOBAL_ROOT}/init.sh"
+    ],
+    "scripts": {
+      "enable-nix-flakes": [
+        "echo adding 'experimental-features = nix-command flakes' to ~/.config/nix/nix.conf",
+        "grep -qF 'experimental-features = nix-command flakes' ~/.config/nix/nix.conf || (mkdir -p ~/.config/nix && echo 'experimental-features = nix-command flakes' >> ~/.config/nix/nix.conf)",
+        "tail -n 1 ~/.config/nix/nix.conf"
+      ],
+      "install-hook-bash": [
+        "echo adding 'devbox global shellenv' to ~/.bashrc",
+        "grep -qF 'devbox global shellenv' ~/.bashrc || echo 'eval \"$(devbox global shellenv --init-hook)\"' >> ~/.bashrc",
+        "tail -n 1 ~/.bashrc"
+      ],
+      "install-hook-zsh": [
+        "echo adding 'devbox global shellenv' to ~/.zshrc",
+        "grep -qF 'devbox global shellenv' ~/.zshrc || echo 'eval \"$(devbox global shellenv --init-hook)\"' >> ~/.zshrc",
+        "tail -n 1 ~/.zshrc"
+      ],
+      "latest-hash": [
+        "curl -fsSL https://nixos.org/channels/nixos-unstable/git-revision"
+      ],
+      "npm-global": [
+        "grep -qF '.npm-packages' ~/.npmrc || echo 'prefix=~/.npm-packages' >> ~/.npmrc",
+        "grep -qF '.npm-packages' ~/.zshrc || echo 'export PATH=$PATH:~/.npm-packages/bin' >> ~/.zshrc",
+        "grep -qF '.npm-packages' ~/.bashrc || echo 'export PATH=$PATH:~/.npm-packages/bin' >> ~/.bashrc",
+        "mkdir -p ~/.npm-packages"
+      ]
+    }
+  },
+  "nixpkgs": {}
+}

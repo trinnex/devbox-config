@@ -1,0 +1,125 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "bat@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#bat",
+      "source": "devbox-search",
+      "version": "0.24.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/bl96qn8bhksydwy3hzriwxbrwc4j053w-bat-0.24.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/2amf3k4klpjcm2j2xnj0659nls1kj8wl-bat-0.24.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/38w7dqa1spl7dnl5mzlscmxgnpwas84h-bat-0.24.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/gfgrs376cgjb67sprbvv7c0lbwaijxi5-bat-0.24.0"
+        }
+      }
+    },
+    "direnv@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#direnv",
+      "source": "devbox-search",
+      "version": "2.32.3",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/clmdqya13rq8i2k9qm8pvabplxxd9njk-direnv-2.32.3"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/yirxf871rfj882gpagzh1b8yn2680l3g-direnv-2.32.3"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/cfpzi07va9k6m3nnv42hss941cnz7p27-direnv-2.32.3"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/83qm9rii0sd5251bjv8344bz9gg423a9-direnv-2.32.3"
+        }
+      }
+    },
+    "eza@latest": {
+      "last_modified": "2023-11-02T13:29:18Z",
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#eza",
+      "source": "devbox-search",
+      "version": "0.15.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ig28g1jf7xbgmlg0q0k7c4w9q8is2k88-eza-0.15.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/wsyqamcv1sr21v9qxpfmr9nb27w1gvar-eza-0.15.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/rwzskj10qrrfymbrl7pg0jvprlgb9pah-eza-0.15.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/ghgvf7xfkh7sq0lvga07814lga6jg7yy-eza-0.15.2"
+        }
+      }
+    },
+    "gitMinimal@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#gitMinimal",
+      "source": "devbox-search",
+      "version": "2.42.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/azp15r57lqrivjzjraidfn1s1vqs5kf0-git-minimal-2.42.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/v6173jva4bcxx1a7k4llj84439xcmrch-git-minimal-2.42.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/1dhdr850d63j3bhbz4dwa5nlkcyv6c1d-git-minimal-2.42.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/qqh9wjpc4chnvivkaq1r4nkzyac873hz-git-minimal-2.42.0"
+        }
+      }
+    },
+    "glow@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#glow",
+      "source": "devbox-search",
+      "version": "1.5.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/s2a2mm6y1wwzjm7cn0vsgk8vph1fmcnj-glow-1.5.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/gnf0nd5i6gk8higxwva8ab6yy7bqr4wb-glow-1.5.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/355hf7nnjvqxyvnp98mdg1gxykhn9d9p-glow-1.5.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/z6avagi2znq36d1qpic7yagqc2jlwh3r-glow-1.5.1"
+        }
+      }
+    },
+    "starship@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#starship",
+      "source": "devbox-search",
+      "version": "1.16.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/nghnsma2m9hvszrvlk9sdy94da7rmd14-starship-1.16.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/6aj9paix8kipxiwagi037qrzgky8wnks-starship-1.16.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/csn49x255kypkxmzmrzi2lwcld9cwf3y-starship-1.16.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/ll1ikvr3fwiwd40avpw7cp9q38dd7j1m-starship-1.16.0"
+        }
+      }
+    }
+  }
+}
