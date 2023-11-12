@@ -24,3 +24,5 @@ alias la='exa -AF --icons=auto --group-directories-first'
 alias lf='exa -F --icons=auto --group-directories-first'
 alias ll='exa -alh --icons=auto --hyperlink --group-directories-first --git'
 alias ls='ls --color=auto'
+
+export name=global
