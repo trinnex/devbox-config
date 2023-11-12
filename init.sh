@@ -23,6 +23,6 @@ alias l1='exa -1 --icons=auto --group-directories-first'
 alias la='exa -AF --icons=auto --group-directories-first'
 alias lf='exa -F --icons=auto --group-directories-first'
 alias ll='exa -alh --icons=auto --group-directories-first --git'
-alias ls='ls --color=auto'
+alias ls='exa --color=auto'
 
 export name=global
