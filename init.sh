@@ -18,11 +18,11 @@ alias cddevbox='cd $DEVBOX_GLOBAL_ROOT'
 
 # other aliases
 alias cat='bat'
-alias l='exa -a --icons=auto --hyperlink --group-directories-first'
+alias l='exa -a --icons=auto --group-directories-first'
 alias l1='exa -1 --icons=auto --group-directories-first'
 alias la='exa -AF --icons=auto --group-directories-first'
 alias lf='exa -F --icons=auto --group-directories-first'
-alias ll='exa -alh --icons=auto --hyperlink --group-directories-first --git'
+alias ll='exa -alh --icons=auto --group-directories-first --git'
 alias ls='ls --color=auto'
 
 export name=global
