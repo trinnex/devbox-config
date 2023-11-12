@@ -14,13 +14,14 @@ esac
 
 # devbox helpers
 alias dbr='devbox run'
+alias dbgr='devbox global run'
 alias cddevbox='cd $DEVBOX_GLOBAL_ROOT'
 
 # other aliases
 alias cat='bat'
-alias l='exa -a --icons=auto --group-directories-first'
-alias l1='exa -1 --icons=auto --group-directories-first'
-alias la='exa -AF --icons=auto --group-directories-first'
-alias lf='exa -F --icons=auto --group-directories-first'
-alias ll='exa -alh --icons=auto --group-directories-first --git'
-alias ls='exa --color=auto'
+alias ls='exa --icons=auto --group-directories-first'
+alias l='ls -a'
+alias l1='ls -1'
+alias la='ls -AF'
+alias lf='ls -F'
+alias ll='ls -alh --git'
