@@ -34,6 +34,12 @@
       "latest-hash": [
         "curl -fsSL https://nixos.org/channels/nixos-unstable/git-revision"
       ],
+      "install-starship-prompt": [
+        "if [ ! -f $HOME/.config/starship.toml ]",
+        "then",
+        "curl -fsSL https://github.com/trinnex/devbox-config/raw/main/starship.toml \u003e $HOME/.config/starship.toml",
+        "fi"
+      ],
       "npm-global": [
         "grep -qF '.npm-packages' ~/.npmrc || echo 'prefix=~/.npm-packages' >> ~/.npmrc",
         "grep -qF '.npm-packages' ~/.zshrc || echo 'export PATH=$PATH:~/.npm-packages/bin' >> ~/.zshrc",
