@@ -123,8 +123,8 @@ alias la='ls -AF'
 alias lf='ls -F'
 alias ll='ls -al --git'
 
-# Git aliases (oh-my-zsh plugins/git port; see git-aliases.bash)
-_git_aliases_file="$(dirname -- "${BASH_SOURCE[0]}")/git-aliases.bash"
+# Git aliases (oh-my-zsh plugins/git port; see git-aliases.sh)
+_git_aliases_file="$(dirname -- "${BASH_SOURCE[0]}")/git-aliases.sh"
 if [[ -r "$_git_aliases_file" ]]; then
   # shellcheck source=/dev/null
   source "$_git_aliases_file"
